@@ -17,7 +17,10 @@ body {
 body.modal-open {
     padding-right:0 !important;
 }
-
+.logo {
+    max-width:150px;
+    margin-top: -35px;
+}
 hr {
     max-width: 120px;
     border-width: 3px;
