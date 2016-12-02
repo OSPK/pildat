@@ -386,6 +386,10 @@ footer {
     max-width:700px;
     font-style: italic;
 }
+.container-fluid.main {
+    padding-right:0px;
+    padding-left:0px;
+}
 footer { background-color:#0c1a1e; min-height:350px; }
 .footerleft { margin-top:50px; padding:0 36px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
