@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url('https://fonts.googleapis.com/css?family=Heebo:100');
 
 html,
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 body {
-    font-family: 'Montserrat','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Heebo', sans-serif;
     color: #001A33;
     webkit-tap-highlight-color: #222;
     top:0;
@@ -17,9 +17,16 @@ body {
 body.modal-open {
     padding-right:0 !important;
 }
+section#one {
+    background: #a7cb42;
+}
+.box {
+    margin-top:1rem;
+    border-bottom:2px solid #d8d8d8;
+}
 .logo {
     max-width:150px;
-    margin-top: -35px;
+    margin-top: -25px;
 }
 hr {
     max-width: 120px;

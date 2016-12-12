@@ -35,18 +35,28 @@ body {
 }
 
 .carousel-indicators {
-  top: 1.5rem;
+/*  top: 1.5rem;
   right: 1.5rem;
   bottom: auto;
   left: auto;
   width: 1rem;
-  margin-left: 0;
+  margin-left: 0;*/
 }
 
 .carousel-indicators > li {
   margin-bottom: .25rem;
 }
 
+.carousel-indicators > img {
+  width:auto;
+  height:50px;
+}
+
+.carousel-indicators .active {
+  width:auto;
+  height:50px;
+  border:2px solid green;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
